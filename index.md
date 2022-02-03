@@ -8,7 +8,7 @@
 # 使用库
 
 - 网页访问：浏览器直接访问[你的神的Jellyfin库](http://www.nideshenserver.site:3517/web/index.html)。
-- 客户端访问：从[Jellyfin Clients](https://jellyfin.org/clients/)下载客户端，后输入服务器地址http://www.nideshenserver.site:3517。
+- 客户端访问：从[Jellyfin Clients](https://jellyfin.org/clients/)下载客户端，后输入服务器地址 http://www.nideshenserver.site:3517。
 
 # 已知未解决问题
 
