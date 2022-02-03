@@ -18,13 +18,14 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
       {% if site.show_downloads %}
-        <a href="{{ www.nideshenserver.site:3517 }}" class="btn">Go to Jellyfin Server</a>
+        <a href="www.nideshenserver.site:3517" class="btn">前往Jellyfin库</a>
         <!-- <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a> -->
       {% endif %}
+      {% if site.github.is_project_page %}
+        <a href="{{ site.github.repository_url }}" class="btn">查看Github项目</a>
+      {% endif %}
+
     </header>
 
     <main id="content" class="main-content" role="main">
