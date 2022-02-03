@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+    background-color: #F2994A;  /* fallback for old browsers */
+    background-image: -webkit-linear-gradient(to right, #F2C94C, #F2994A);
+    background-image: linear-gradient(to right, #F2C94C, #F2994A);
+  }
